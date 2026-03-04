@@ -69,6 +69,23 @@ body{
 .menu-link:hover::after {
     width: 100%;
 }
+.lista-tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;      /* Remove bolinhas */
+    display: flex;         /* Coloca lado a lado */
+    gap: 20px;             /* Espaço entre itens */
+    padding: 0;
+}
+
+.lista-tech li {
+    background-color: #1f2a40;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #4a90e2;
+}
 .cabecalho {
     display: flex;
     flex-direction: column;
@@ -121,7 +138,7 @@ body{
     }
 }
 .Sobre {
-    padding: 6rem 2rem;
+    padding: 3rem 1rem;
     background-color: var(--background);
     margin: 2rem auto;
     max-width: 900px;
@@ -263,5 +280,7 @@ body{
     z-index: -1;
     background: radial-gradient(ellipse at center, #0a1a33 0%, #000814 100%);
 }
+
+
 
 
